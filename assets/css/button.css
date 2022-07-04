@@ -1,0 +1,22 @@
+/* Section - Button with copy icon */
+.block.copy-icon-button {
+  background-color: #222227;
+}
+
+.button-copy {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  height: 3rem;
+  background-color: #1867c0;
+  padding: 1rem 2rem;
+  border-radius: 2px;
+  color: white;
+}
+.button-copy__icon {
+  font-size: 1.5rem;
+}
+.button-copy_text {
+  font-size: 1rem;
+}
