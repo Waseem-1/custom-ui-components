@@ -3,6 +3,10 @@
   background-color: #222227;
 }
 
+.block.copy-icon-button .block-title span {
+  border-bottom: 3px solid #1867c0;
+}
+
 .button-copy {
   display: flex;
   gap: 0.5rem;
@@ -48,6 +52,7 @@
   color: white;
   transition: background 0.35s;
 }
+
 .button-settings:hover {
   background: #7cb342;
 }
@@ -90,6 +95,7 @@
 .button-play--icon {
   font-size: 1.25rem;
 }
+
 .button-play--text {
   font-size: 1rem;
 }
