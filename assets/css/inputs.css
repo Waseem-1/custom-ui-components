@@ -1,0 +1,50 @@
+/* Section - Text input with focus state */
+.block.focus-input-text {
+  background-color: #f7f7fe;
+}
+
+.block.focus-input-text .block-title {
+  color: #4c4954;
+}
+
+.block.focus-input-text .block-title span {
+  border-bottom: 3px solid #0091ea;
+}
+
+.input-focus {
+  position: relative;
+}
+
+.input-focus--text {
+  height: 3.5rem;
+  width: 12rem;
+  padding-left: 3.5rem;
+  padding-right: 1rem;
+  font-size: 1rem;
+  background: #ffffff;
+  border: 2px solid #d6cdd7;
+  border-radius: 4px;
+  transition: border-color 0.3s;
+}
+
+.input-focus--text::placeholder {
+  color: #a19eab;
+}
+
+.input-focus--icon {
+  position: absolute;
+  left: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1.5rem;
+  color: #a19eab;
+  transition: color 0.3s;
+}
+
+.input-focus--text:focus {
+  border-color: #0091ea;
+}
+
+.input-focus--text:focus ~ .input-focus--icon {
+  color: #0091ea;
+}
