@@ -14,14 +14,16 @@
   border-radius: 2px;
   color: white;
 }
+
 .button-copy--icon {
   font-size: 1.5rem;
 }
+
 .button-copy--text {
   font-size: 1rem;
 }
 
-/* Section - Settings Button with icon */
+/* Section - Settings Button with Hover effect */
 .block.settings-icon-button {
   background-color: #f7f7fe;
 }
@@ -29,6 +31,7 @@
 .block.settings-icon-button .block-title {
   color: #4c4954;
 }
+
 .block.settings-icon-button .block-title span {
   border-bottom: 3px solid #7cb342;
 }
@@ -48,9 +51,45 @@
 .button-settings:hover {
   background: #7cb342;
 }
+
 .button-settings--icon {
   font-size: 1.25rem;
 }
+
 .button-settings--text {
+  font-size: 1rem;
+}
+
+/* Section - Play Button with focus effect */
+.block.play-icon-button {
+  background-color: #383941;
+}
+
+.block.play-icon-button .block-title span {
+  border-bottom: 3px solid #d84315;
+}
+
+.button-play {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #383941;
+  padding: 0 1.5rem 0;
+  height: 3.5rem;
+  border-radius: 3px;
+  background: #131315;
+  color: white;
+  transition: border-color 0.35s;
+}
+
+.button-play:focus {
+  border-color: #d84315;
+}
+
+.button-play--icon {
+  font-size: 1.25rem;
+}
+.button-play--text {
   font-size: 1rem;
 }
