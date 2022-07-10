@@ -14,9 +14,40 @@
   border-radius: 2px;
   color: white;
 }
-.button-copy__icon {
+.button-copy--icon {
   font-size: 1.5rem;
 }
-.button-copy_text {
+.button-copy--text {
+  font-size: 1rem;
+}
+
+/* Section - Settings Button with icon */
+.block.settings-icon-button {
+  background-color: #f7f7fe;
+}
+
+.block.settings-icon-button .block-title {
+  color: #4c4954;
+}
+
+.button-settings {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  height: 3.5rem;
+  padding: 0 1.5rem 0 1.5rem;
+  border: 0.5rem;
+  background: #8bc34a;
+  color: white;
+  transition: background 0.35s;
+}
+.button-settings:hover {
+  background: #7cb342;
+}
+.button-settings--icon {
+  font-size: 1.25rem;
+}
+.button-settings--text {
   font-size: 1rem;
 }
