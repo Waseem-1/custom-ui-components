@@ -29,6 +29,9 @@
 .block.settings-icon-button .block-title {
   color: #4c4954;
 }
+.block.settings-icon-button .block-title span {
+  border-bottom: 3px solid #7cb342;
+}
 
 .button-settings {
   display: flex;
