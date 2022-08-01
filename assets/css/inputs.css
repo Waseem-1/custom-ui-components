@@ -48,3 +48,53 @@
 .input-focus--text:focus ~ .input-focus--icon {
   color: #0091ea;
 }
+
+/* Section - Text input with validation */
+
+.block.valid-input-text {
+  background-color: #f7f7fe;
+}
+
+.block.valid-input-text .block-title {
+  color: #4c4954;
+}
+
+.block.valid-input-text .block-title span {
+  border-bottom: 3px solid #05c46b;
+}
+
+.input-valid--text {
+  display: block;
+  width: 280px;
+  background-color: #fff;
+  padding: 15px 20px;
+  font-size: 15px;
+  border: none;
+  border-bottom: 3px solid transparent;
+  transition: all 0.3s;
+}
+
+.input-valid--text:focus {
+  outline: none;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  border-bottom: 3px solid #05c46b;
+}
+
+.input-valid--text:focus:invalid {
+  border-bottom: 3px solid #ffa801;
+}
+
+.input-valid--label {
+  font-size: 13px;
+  margin-left: 20px;
+  margin-top: 7px;
+  color: #57606f;
+  display: block;
+  transition: all 0.3s;
+}
+
+.input-valid--text:placeholder-shown + .input-valid--label {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-40px);
+}
